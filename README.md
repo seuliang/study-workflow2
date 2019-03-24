@@ -7,3 +7,5 @@ https://hub.docker.com/r/trzeci/emscripten/
 
 travis 教程
 https://docs.travis-ci.com/user/for-beginners
+
+#使用travis的commit不能有中文

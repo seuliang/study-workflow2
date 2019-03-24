@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/seuliang/study-workflow2.svg?branch=master)](https://travis-ci.com/seuliang/study-workflow2)
+
 # study-workflow
 使用travis 编译 emscripten
 https://emscripten.org/docs/compiling/Travis.html

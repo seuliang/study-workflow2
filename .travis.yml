@@ -12,7 +12,7 @@ services:
 
 before_install:
   - docker run -dit --name emscripten -v $(pwd):/src trzeci/emscripten:sdk-incoming-64bit bash
-  
-script:make
-  - docker exec -it emscripten emcc helloworld.cpp -o helloworld.js --closure 1
+
+script:
+  - docker exec -it emscripten make helloworld.js
   - make test

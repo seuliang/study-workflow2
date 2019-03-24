@@ -15,3 +15,4 @@ before_install:
 
 script:
   - docker exec -it emscripten emcc helloworld.cpp -o helloworld.js --closure 1
+  - node helloworld.js

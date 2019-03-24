@@ -14,5 +14,5 @@ before_install:
   - docker run -dit --name emscripten -v $(pwd):/src trzeci/emscripten:sdk-incoming-64bit bash
 
 script:
-  - docker exec -it emscripten make helloworld.js
+  - docker exec -it emscripten emcc helloworld.cpp -o helloworld.js --closure 1
   - make test
